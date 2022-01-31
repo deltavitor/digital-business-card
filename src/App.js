@@ -7,7 +7,7 @@ import Footer from './components/Footer.js'
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Info />
       <About />
       <Interests />
