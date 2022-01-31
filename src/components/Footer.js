@@ -5,9 +5,13 @@ import LeetCode from '../images/icons/leetcode.svg'
 
 function Footer() {
   return (
-    <div>
-      <img src={GitHub} onClick={() => window.location = 'https://github.com/deltavitor'}/>
-      <img src={LeetCode} onClick={() => window.location = 'https://leetcode.com/Deltavitor/'}/>
+    <div className={'footer'}>
+      <a href={'https://github.com/deltavitor'}>
+        <img src={GitHub}/>
+      </a>
+      <a href={'https://leetcode.com/Deltavitor/'}>
+        <img src={LeetCode}/>
+      </a>
     </div>
   )
 }
